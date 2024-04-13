@@ -89,7 +89,7 @@ function Home() {
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 className="w-full text-sm border-gray-300 rounded-md p-2 bg-gray-100 "
-                placeholder="Enter your password "
+                placeholder="6+ characters"
               />
             </div>
             <div className="flex items-center mt-2">
